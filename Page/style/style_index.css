@@ -1,0 +1,264 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+
+header{
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.first_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_language{
+    height: 30px;
+    width: 60px;
+    background-color: #F4F4F4;
+    border: 0.5px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;  /*zeby bylo tyle samo co w search_and_icons*/
+    cursor: pointer;
+
+}
+
+.button_language:hover{
+    background-color: #e6e6e6;
+}
+
+.button_language .flag_p{
+    margin: 0;
+}
+
+.button_language img{
+    width: 20px;
+    height: 10px;
+    margin: 0;
+    border: 0.5px solid black;
+}
+
+.logo{
+    background-color: black;
+    width: 300px;
+    height: 80px;
+    margin-left: 210px; /* aby byl na srodku to musimy dodac szerokosx button language i polowe szerokosci tego kontenera*/
+    margin-top: 10px;
+    justify-self: center;
+
+}
+
+.search_and_icons{
+    display: flex;
+    flex-direction: column;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.icons img{
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    transition: color 0.1s;
+    color: #000000;
+    text-decoration: none;
+}
+
+.icon:hover{
+    color: #868686;
+}
+
+.search_bar{
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.search_bar_input{
+    height: 30px;
+    width: 200px;
+    margin-right: 15px;
+    outline: 0;
+    
+}
+
+.search_bar img{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 250px;
+    top: 4px;  /* 30 height , wiec odjac wysokosc tego img i podzielic na 2*/
+
+}
+
+.second_row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.categories{
+    height: 50px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category{
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+    color: #000000;
+}
+
+.category:hover{
+    color: #868686;
+}
+
+.c_new{
+    color: #D70000;
+}
+
+.c_new:hover{
+    color: #d36c6c;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block_dress_in_your_style{
+    width: 700px;
+    height: 90px;
+    border: solid 1px black;
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_of_the_block_dress_in_your_style{
+    font-size: 30px;
+}
+
+.pictures_of_clothes{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_items{
+    width: 240px;
+    height: 330px;
+    border: 1px solid black;
+    display: flex;
+    align-items: end;
+
+}
+
+.description{
+    width: 100%;
+    height: 70px;
+    border: 1px solid black;
+    margin: 0 -1px -1px -1px; /* zeby byly na rowno z borderem rodzica a nie jeden do tylu*/
+}
+
+.segment_about_us{
+    display: flex;
+    margin: 50px;
+    margin-top: 100px;
+}
+
+.left_segment{
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+}
+
+.block_about_us{
+    font-size: 30px;
+    text-align: center;
+}
+
+.block_other_text_about_us{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 140px;
+    padding-right: 140px;
+
+}
+.pictures_about_us{
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+
+.pictures_about_us_img{
+    /* style dla obrazka*/
+}
+
+footer{
+    background-color: #252525;
+    color:#F4F4F4;
+    width: 100%;
+    height: 370px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.categories_of_footer{
+    margin-top: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.category_f{
+    display: flex;
+    flex-direction: column;
+}
+
+.head_of_category{
+    font-size: 25px;
+}
+
+.category_of_category_f{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #F4F4F4;
+    transition: text-decoration 0.1s;
+}
+
+.category_of_category_f:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
